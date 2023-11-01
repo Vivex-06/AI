@@ -1,0 +1,10 @@
+Exp No.5
+
+// Get the number from the user
+const number = parseInt(prompt("Enter a number: "));
+
+// Create a multiplication table for the given number
+for (let i = 1; i <= 10; i++) {
+  const product = number * i;
+  console.log(`${number} * ${i} = ${product}`);
+}
